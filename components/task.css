@@ -1,0 +1,41 @@
+.task-container {
+  width: auto;
+  height: 50px;
+  border: 1px solid white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: #2c2c2c;
+}
+
+.task-text {
+  margin-right: 30px;
+  margin-top: 10px;
+}
+
+.checked {
+  height: 25px;
+  width: 25px;
+  background-color: #86dc3d;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+.checked:hover,
+not-checked:hover {
+  cursor: pointer;
+}
+
+.not-checked {
+  height: 25px;
+  width: 25px;
+  background-color: #e2252b;
+  margin-left: 40px;
+  margin-top: 10px;
+}
